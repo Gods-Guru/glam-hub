@@ -1,0 +1,63 @@
+src/styles/App.css
+.app {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+/* src/components/Header.css */
+.header {
+  background-color: #f8f9fa;
+  padding: 20px;
+}
+
+.header nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+.header nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+/* src/components/Footer.css */
+.footer {
+  background-color: #343a40;
+  color: white;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+/* src/components/Hero.css */
+.hero {
+  background-image: url('https://path-to-your-image.jpg'); /* Use a banner image here */
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.hero-content p {
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+
+.shop-now-btn {
+  padding: 10px 20px;
+  background-color: #ff4081;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+}
